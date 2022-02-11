@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html  {
+    font-size: 100%;
+    font-family: $fontFamily;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-top{
+        display: flex;
+        align-items: flex-start;
+        background-color: #1c1c1c;
+        }
+        h1 {
+            color: white;
+        }
+        .container {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            height: 100%;
+            .thumbs-container {
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                padding: 3em 0 1.5em;
+                .title {
+                    text-transform: uppercase;
+                    font-size: 0.8em;
+                    background-color: $headingsColor;
+                    padding: 0.7em;
+                    position: absolute;
+                    top: -4.5%;
+                }
+                .container-bottom {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    .load {
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        color: white;
+                        background-color: $headingsColor;
+                        border: none;
+                        padding: 0.8em 4em;
+                        margin-top: 2em;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .main-bottom {
+            width: 100%;
+            height: 150px;
+            background-color: $headingsColor;
+            text-transform: uppercase;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            width: calc(100% / 5);
+            align-items: center;
+            gap: 10px;
+            img{
+            width: 20%;
+            }
+            .caption {
+                font-size: 0.8em;
+                color: white;
+            }   
+        }

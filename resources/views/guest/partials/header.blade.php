@@ -1,5 +1,5 @@
 <header class="container">
-        <img src="../assets/img/dc-logo.png" alt="">
+        <img src="{{asset('images/dc-logo.png')}}" alt="logo">
         <ul>
             <li><a href="#">characters</a></li>
             <li class="active"><a href="">comics</a></li>

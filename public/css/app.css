@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;
+
+700&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-top {
+  display: flex;
+  align-items: flex-start;
+  background-color: #1c1c1c;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+}
+
+.container .thumbs-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 3em 0 1.5em;
+}
+
+.container .thumbs-container .title {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  background-color: #0282f9;
+  padding: 0.7em;
+  position: absolute;
+  top: -4.5%;
+}
+
+.container .thumbs-container .container-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container .thumbs-container .container-bottom .load {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: #0282f9;
+  border: none;
+  padding: 0.8em 4em;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.main-bottom {
+  width: 100%;
+  height: 150px;
+  background-color: #0282f9;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  align-items: center;
+  gap: 10px;
+}
+
+.content img {
+  width: 20%;
+}
+
+.content .caption {
+  font-size: 0.8em;
+  color: white;
+}
+
+.thumb-container {
+  width: 180px;
+}
+
+.thumb-container .thumb {
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+}
+
+.thumb-container .thumb img {
+  width: 100%;
+}
+
+.thumb-container .caption {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: white;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header ul li {
+  padding: 0 0.5em;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 64px 0;
+  cursor: pointer;
+}
+
+header ul li a:hover,
+header ul li a:active,
+header ul li a.active {
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
+}
+
+.jumbo {
+  height: 320px;
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+}
+
