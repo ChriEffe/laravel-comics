@@ -1,0 +1,80 @@
+.footer-top {
+        width: 100%;
+        height: 300px;
+        background-image: url('/images/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        .thumb-bg {
+            width: 400px;
+            position: absolute;
+            top: -50px;
+            right: 150px;
+            z-index: 0;
+        }
+    }
+    .footer-bottom {
+        width: 100%;
+        height: 100px;
+        background-color: #303030;
+        position: relative;
+        z-index: 1;
+        .social-container {
+            width: 80%;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .left-col {
+                button {
+                    border: solid 2px $headingsColor;
+                    padding: 10px;
+                    background-color: #303030;
+                    color: white;
+                    text-transform: uppercase;
+                }
+            }
+            .right-col {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                    h2 {
+                        color: $headingsColor;
+                        font-size: 1em;
+                        text-transform: uppercase;
+                    }   
+            }
+            img {
+                height: 20%;
+            }
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: start;
+        .col {
+            width: 15%;
+            h3 {
+                color: white;
+                font-size: 0.8em;
+                margin: 8px 0;
+                text-transform: uppercase;
+            }
+            ul {
+                list-style: none;
+                li {
+                    font-size: 0.6em;
+                    font-weight: 300;
+                    margin: 5px 0;
+                    a {
+                        text-decoration: none;
+                        color: grey;
+                    }
+                }
+            }
+        }
+    }

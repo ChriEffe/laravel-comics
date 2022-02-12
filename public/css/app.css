@@ -146,6 +146,98 @@ header ul li a.active {
   border-bottom: 3px solid #0282f9;
 }
 
+.footer-top {
+  width: 100%;
+  height: 300px;
+  background-image: url("/images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-top .thumb-bg {
+  width: 400px;
+  position: absolute;
+  top: -50px;
+  right: 150px;
+  z-index: 0;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 100px;
+  background-color: #303030;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-bottom .social-container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom .social-container .left-col button {
+  border: solid 2px #0282f9;
+  padding: 10px;
+  background-color: #303030;
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer-bottom .social-container .right-col {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-bottom .social-container .right-col h2 {
+  color: #0282f9;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.footer-bottom .social-container img {
+  height: 20%;
+}
+
+.container {
+  display: flex;
+  justify-content: start;
+}
+
+.container .col {
+  width: 15%;
+}
+
+.container .col h3 {
+  color: white;
+  font-size: 0.8em;
+  margin: 8px 0;
+  text-transform: uppercase;
+}
+
+.container .col ul {
+  list-style: none;
+}
+
+.container .col ul li {
+  font-size: 0.6em;
+  font-weight: 300;
+  margin: 5px 0;
+}
+
+.container .col ul li a {
+  text-decoration: none;
+  color: grey;
+}
+
 .jumbo {
   height: 320px;
   background-image: url("/images/jumbotron.jpg");
