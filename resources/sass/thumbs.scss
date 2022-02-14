@@ -1,0 +1,31 @@
+@import "partials/variables";
+@import "partials/common";
+
+.main-top  {
+    height: 60px;
+    background-color: $headingsColor;
+    position: relative;
+    img  {
+        width: 11%;
+        position: absolute;
+        top: -210px;
+        left: 250px;
+    }
+    span  {
+        text-transform: uppercase;
+        color: white;
+        position: absolute;
+    }
+    .book  {
+        top: -210px;
+        left: 250px;
+        background-color: #00a9d9;
+    }
+    .gallery  {
+        top: 24px;
+        left: 250px;
+        background-color: #00a9d9;
+        width: 11%;
+        text-align: center;
+    }
+}

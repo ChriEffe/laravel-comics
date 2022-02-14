@@ -22,7 +22,7 @@ html {
   background-color: #1c1c1c;
 }
 
-h1 {
+.text-white {
   color: white;
 }
 
@@ -242,5 +242,26 @@ header ul li a.active {
   height: 320px;
   background-image: url("/images/jumbotron.jpg");
   background-size: cover;
+}
+
+.thumb-container {
+  width: 180px;
+}
+
+.thumb-container .thumb {
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+}
+
+.thumb-container .thumb img {
+  width: 100%;
+}
+
+.thumb-container .caption {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: white;
 }
 

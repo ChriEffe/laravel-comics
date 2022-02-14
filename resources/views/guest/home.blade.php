@@ -10,7 +10,7 @@
         <div class="container">
             <div class="thumbs-container">
                 <div class="title">
-                    <h1>current series</h1>
+                    <h1 class="text-white">current series</h1>
                 </div>
                 @foreach ($comics as $comicsThumb)
                 <div class="thumb-container">
