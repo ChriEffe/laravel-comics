@@ -11,8 +11,21 @@
         <span class="book">comic book</span>
         <span class="gallery">view gallery</span>
     </div>
-    <div>
-        <h1>{{ $comicsThumb['title'] }}</h1>
+    <div class="main-content container">
+        <div class="main-content-left">
+            <h1>{{ $comicsThumb['title'] }}</h1>
+            <div class="price-box">
+                <div>
+                    U.S Price: <span>{{$comicsThumb["price"]}}</span>
+                </div>
+                <div>
+                    <span>AVAILABLE</span>
+                    <button>Check availability <i class="fas fa-sort-down"></i></button>
+                </div>
+            </div>
+            <p class="caption">{{ $comicsThumb['description'] }}</p>
+        </div>
+        <div class="main-content-right"></div>
     </div>
 </main>
 @endsection
