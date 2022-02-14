@@ -5,7 +5,6 @@
 @endsection
 
 @section('content')
-<div class="jumbo"></div>
 <main>
     <div class="main-top">
         <div class="container">
@@ -13,12 +12,12 @@
                 <div class="title">
                     <h1>current series</h1>
                 </div>
-                @foreach ($comics as $comics_thumb)
+                @foreach ($comics as $comicsThumb)
                 <div class="thumb-container">
                     <div class="thumb">
-                        <img src="{{ $comics_thumb['thumb'] }}" alt="{{ $comics_thumb['title'] }}">
+                        <a href="{{ route('thumb', $comicsThumb['id']) }}"><img src="{{ $comicsThumb['thumb'] }}" alt="{{ $comicsThumb['title'] }}"></a>
                     </div>
-                    <span class="caption">{{ $comics_thumb['title'] }}</span>
+                    <span class="caption">{{ $comicsThumb['title'] }}</span>
                 </div>
                 @endforeach
                 <div class="container-bottom">

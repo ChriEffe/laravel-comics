@@ -17,6 +17,26 @@ Route::get('/', function () {
     $data = ['comics' => config('comics'), 'nomePagina' => 'DC Comics - Home'];
     return view('guest.home', $data);
 })->name('home');
-Route::get('/thumbs', function () {
-    return view('guest.thumbs');
-})->name('thumbs');
+
+Route::get('thumbs/{id}', function ($id) {
+    $collection = collect(config('comics'));
+    $comicsThumb = $collection->where('id', $id);
+
+    if ($comicsThumb->count() === 0) {
+        abort(404);
+    }
+
+    $singleThumb = '';
+    foreach ($comicsThumb as $value) {
+        $singleThumb = $value;
+    }
+
+    return view('guest.thumbs', [
+        'comicsThumb' => $singleThumb,
+        'nomePagina' => $singleThumb['title']
+    ]);
+})->name('thumb');
+
+Route::get('/games', function () {
+    return view('guest.games');
+})->name('games');

@@ -1,15 +1,16 @@
 <header class="container">
         <a href="{{route('home')}}"><img src="{{asset('images/dc-logo.png')}}" alt="logo"></a>
         <ul>
-            <li><a href="{{route('thumbs')}}">characters</a></li>
-            <li class="active"><a href="{{route('thumbs')}}">comics</a></li>
-            <li><a href="{{route('thumbs')}}">movies</a></li>
-            <li><a href="{{route('thumbs')}}">tv</a></li>
-            <li><a href="{{route('thumbs')}}">games</a></li>
-            <li><a href="{{route('thumbs')}}">collectibles</a></li>
-            <li><a href="{{route('thumbs')}}">videos</a></li>
-            <li><a href="{{route('thumbs')}}">fans</a></li>
-            <li><a href="{{route('thumbs')}}">news</a></li>
-            <li><a href="{{route('thumbs')}}">shop</a></li>
+            <li><a href="{{route('games')}}">characters</a></li>
+            <li class="active"><a href="{{route('games')}}">comics</a></li>
+            <li><a href="{{route('games')}}">movies</a></li>
+            <li><a href="{{route('games')}}">tv</a></li>
+            <li><a href="{{route('games')}}">games</a></li>
+            <li><a href="{{route('games')}}">collectibles</a></li>
+            <li><a href="{{route('games')}}">videos</a></li>
+            <li><a href="{{route('games')}}">fans</a></li>
+            <li><a href="{{route('games')}}">news</a></li>
+            <li><a href="{{route('games')}}">shop</a></li>
         </ul>
     </header>
+    <div class="jumbo"></div>

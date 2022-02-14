@@ -5,5 +5,6 @@
 @endsection
 
 @section('content')
-    Thumbs
+    <img src="{{ $comicsThumb['thumb'] }}" alt="{{ $comicsThumb['title'] }}">
+    <h1>{{ $comicsThumb['title'] }}</h1>
 @endsection
