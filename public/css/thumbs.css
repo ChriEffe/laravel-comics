@@ -112,32 +112,32 @@ html {
   color: white;
 }
 
-.main-top {
+.main-content-top {
   height: 60px;
   background-color: #0282f9;
   position: relative;
 }
 
-.main-top img {
+.main-content-top img {
   width: 11%;
   position: absolute;
   top: -210px;
   left: 250px;
 }
 
-.main-top span {
+.main-content-top span {
   text-transform: uppercase;
   color: white;
   position: absolute;
 }
 
-.main-top .book {
+.main-content-top .book {
   top: -210px;
   left: 250px;
   background-color: #00a9d9;
 }
 
-.main-top .gallery {
+.main-content-top .gallery {
   top: 24px;
   left: 250px;
   background-color: #00a9d9;
