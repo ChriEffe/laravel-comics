@@ -145,13 +145,16 @@ html {
   text-align: center;
 }
 
-.price-box {
-  display: flex;
-  justify-content: space-between;
+.main-content {
+  gap: 2.5em;
+}
+
+.main-content .main-content-left {
   width: 60%;
 }
 
-.caption {
-  width: 60%;
+.main-content .main-content-left .price-box {
+  display: flex;
+  justify-content: space-between;
 }
 

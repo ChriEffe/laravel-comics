@@ -30,12 +30,13 @@
     }
 }
 
-.price-box  {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-}
-
-.caption  {
-    width: 60%;
+.main-content  {
+    gap: 2.5em;
+    .main-content-left {
+        width: 60%;
+        .price-box  {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
 }

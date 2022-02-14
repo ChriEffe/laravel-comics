@@ -25,7 +25,9 @@
             </div>
             <p class="caption">{{ $comicsThumb['description'] }}</p>
         </div>
-        <div class="main-content-right"></div>
+        <div class="main-content-right">
+            <img src="{{asset('images/adv.jpg')}}" alt="adv">
+        </div>
     </div>
 </main>
 @endsection
