@@ -32,11 +32,37 @@
 
 .main-content  {
     gap: 2.5em;
+    padding-top: 3em;
+    padding-bottom: 5em;
     .main-content-left {
         width: 60%;
         .price-box  {
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            background-color: #55ba59;
+            padding: 1em;
+            color: white;
+            button  {
+                background-color: #55ba59;
+                color: white;
+                border: none;
+            }
+        }
+        .caption  {
+            color: grey;
+            line-height: 1.5em;
+            padding-top: 1em;
+        }
+    }
+    .main-content-right  {
+        display: flex;
+        flex-direction: column;
+        span  {
+            text-align: end;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: grey;
         }
     }
 }

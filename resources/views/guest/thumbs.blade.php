@@ -15,7 +15,7 @@
         <div class="main-content-left">
             <h1>{{ $comicsThumb['title'] }}</h1>
             <div class="price-box">
-                <div>
+                <div class="price">
                     U.S Price: <span>{{$comicsThumb["price"]}}</span>
                 </div>
                 <div>
@@ -26,6 +26,7 @@
             <p class="caption">{{ $comicsThumb['description'] }}</p>
         </div>
         <div class="main-content-right">
+            <span>advertisment</span>
             <img src="{{asset('images/adv.jpg')}}" alt="adv">
         </div>
     </div>

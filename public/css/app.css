@@ -156,6 +156,7 @@ header ul li a.active {
   align-items: center;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 
 .footer-top .thumb-bg {
